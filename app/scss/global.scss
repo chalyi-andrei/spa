@@ -1,0 +1,27 @@
+@import "./foundation/foundation";
+
+@include foundation-everything();
+
+.class-list {
+  padding-top: 40px;
+  list-style-type: none;
+  width: 250px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+.class-list-item {
+  position: relative;
+  width: 250px;
+  padding: 10px 0;
+  border-bottom: 1px dashed #999;
+}
+.class-list-image {
+  display: inline-block;
+  border-radius: 50%;
+}
+.class-list-name {
+  display: inline-block;
+  position: absolute;
+  left: 100px;
+  top: calc(50% - 10px );
+}

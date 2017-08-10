@@ -1,0 +1,13 @@
+@mixin normalize {
+  canvas {
+    display: inline-block;
+  }
+
+  template {
+    display: none;
+  }
+
+  [hidden] {
+    display: none;
+  }
+}
