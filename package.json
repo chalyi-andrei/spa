@@ -57,5 +57,9 @@
     "test": "test"
   },
   "keywords": [],
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react-redux": "^4.4.8",
+    "redux": "^3.7.2"
+  }
 }

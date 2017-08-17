@@ -8,7 +8,7 @@ const testMode = false;
 
 module.exports = {
     entry: {
-        js: testMode ? ['./test/ComponentTest.js'] : ['./app/js/app.js'],
+        js: testMode ? ['./test/ComponentTest.js'] : ['./app/js/index.js'],
         css: ['./app/scss/global.scss']
     },
 
